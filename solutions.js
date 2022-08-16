@@ -23,3 +23,31 @@
 function isTrue(variable1){
     return variable1 === true;
 }
+function isFalse (value) {
+    return value === false;
+}
+function not (input){
+    return !Boolean(input)
+}
+function addOne (input){
+    return Number (input) + 1
+}
+function isEven(value){
+    if (value !== Boolean(false));
+    return value % 2 === 0;
+}
+function isIdentical(argument1, argument2){
+    return argument1 === argument2;
+}
+function isEqual(argument1, argument2){
+    return argument1 == argument2;
+}
+function or(input1, input2){
+    return input1 || input2;
+}
+function and(input1, input2){
+    return input1 && input2;
+}
+function concat(x, y){
+    return x.toString() + y.toString();
+}
